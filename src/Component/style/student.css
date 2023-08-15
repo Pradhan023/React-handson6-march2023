@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.button
+{
+    height: 50px;
+    width: 180px;
+    border-radius: 15px;
+    font-size: large;
+    border: none;
+    background-color: rgb(163, 234, 247);
+    font-weight: bold;
+    position: absolute;
+    right: 80px;
+}
+.heading
+{
+    padding-left: 80px;
+}
+table
+{
+    text-align: center;
+    width: 60%;
+    height: 280px;
+    font-size: large;
+    border-collapse: collapse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+tr:nth-child(even)
+{
+    background-color: rgb(213, 243, 243);
+}
